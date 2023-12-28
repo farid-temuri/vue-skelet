@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <SButton>
-      <template v-slot>
-        test button
-      </template>
-    </SButton>
+  <div class="h-[100dvh] text-gray-800">
+    <NuxtPage />
   </div>
 </template>
