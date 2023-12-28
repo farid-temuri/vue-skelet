@@ -5,5 +5,9 @@
 </template>
 
 <script lang='ts' setup>
+const props = defineProps({
+	
+} )
+console.log(props);
 
 </script>
