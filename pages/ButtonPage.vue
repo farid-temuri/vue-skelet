@@ -1,8 +1,7 @@
 <template>
 	<div>
-		<button>
-			Buttons
-		</button>
+		Button
+		Commonly used button
 	</div>
 </template>
 <script lang='ts' setup>

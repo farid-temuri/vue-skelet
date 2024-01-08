@@ -14,7 +14,7 @@ import type { RoutesNamesList } from '@typed-router/__routes';
 
 
 const componentsList: {routeName: RoutesNamesList, placeholder: string}[] = [
-  { routeName: 'showcase', placeholder: 'Test'}
+  { routeName: 'ButtonPage', placeholder: 'Test'}
 ]
 
 </script>
