@@ -1,6 +1,6 @@
-## Setup
+## Подготовка
 
-Make sure to install the dependencies:
+Установить все зависимости:
 
 ```bash
 
@@ -9,9 +9,9 @@ pnpm install
 
 ```
 
-## Development Server
+## Сервер для разработки
 
-Start the development server on `http://localhost:3000`:
+Запустить сервер для разработки `http://localhost:3000`:
 
 ```bash
 
@@ -20,9 +20,9 @@ pnpm run dev
 
 ```
 
-## Production
+## Продакшен
 
-Build the application for production:
+Собрать приложение для продакшена:
 
 ```bash
 
@@ -31,7 +31,7 @@ pnpm run build
 
 ```
 
-Locally preview production build:
+Локальный предпросмотр продакшен сервера:
 
 ```bash
 
