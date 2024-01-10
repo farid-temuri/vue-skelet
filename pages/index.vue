@@ -3,18 +3,25 @@
     <div class="text-2xl py-4">
       List of all components
     </div>
-    <NuxtLink as="button" v-for="component in componentsList" :to="{name:component.routeName}" class="  border-2 rounded-md bg-slate-300 border-gray-800 px-2">
-        {{ component.placeholder }}
+    <NuxtLink
+      v-for="component in componentsList"
+      :key="component.routeName"
+      as="button"
+      :to="{name:component.routeName}"
+      class="  border-2 rounded-md bg-slate-300 border-gray-800 px-2"
+    >
+      {{ component.placeholder }}
     </NuxtLink>
+    <div class="text-2xl py-4">
+      Design System
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import type { RoutesNamesList } from '@typed-router/__routes';
-
+import type { RoutesNamesList } from '@typed-router/__routes'
 
 const componentsList: {routeName: RoutesNamesList, placeholder: string}[] = [
-  { routeName: 'ButtonPage', placeholder: 'Test'}
 ]
 
 </script>

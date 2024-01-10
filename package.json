@@ -7,9 +7,15 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lintfix": "eslint --fix"
   },
   "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
     "@nuxtjs/tailwindcss": "^6.10.3",
     "nuxt": "^3.9.0",
     "nuxt-typed-router": "^3.5.0",
